@@ -1,0 +1,16 @@
+textarea {
+    min-height: 400px;
+}
+
+.unread_email {
+    background-color: #f7f1f1;
+    padding: 20px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.read_email {
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid grey;
+}
