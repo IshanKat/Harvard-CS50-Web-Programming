@@ -1,0 +1,220 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+#a_search, #i_search, #lucky, #g_search {
+  color: white;
+  background-color: #0066ff;
+  position: absolute;
+  padding: 10px;
+  top: 60px;
+  border: none;
+}
+
+.a_e, .a_l, .a_g2, .a_o2, .a_o1, .a_g1, .e, .l, .g2, .o2, .o1, .g1 {
+  position: absolute;
+  top: 20vh;
+  font-size: 100px;
+  font-weight: lighter;
+}
+
+/* Button css */
+#g_search {
+  left: 715px;
+}
+
+#lucky {
+  left: 850px;
+}
+
+#i_search {
+  left: 795px;
+}
+
+#a_search {
+  left: 810px;
+}
+
+/* Letter css */
+.g1 {
+  color: #0066ff;
+  left: 41vw;
+}
+
+.o1 {
+  color: red;
+  left: 45.5vw;
+}
+
+.o2 {
+  color: #ffbb00;
+  left: 49vw;
+}
+
+.g2 {
+  color: #0066ff;
+  left: 52.5vw;
+}
+
+.l {
+  color: green;
+  left: 56vw;
+}
+
+.e {
+  color: red;
+  left: 57.5vw;
+}
+
+.a_g1 {
+  color: #0066ff;
+  top: -14px;
+  left: 8px;
+  font-size: 40px;
+}
+
+.a_o1 {
+  color: red;
+  top: -15px;
+  left: 40px;
+  font-size: 40px;
+}
+
+.a_o2 {
+  color: #ffbb00;
+  top: -15px;
+  left: 65px;
+  font-size: 40px;
+}
+
+.a_g2 {
+  color: #0066ff;
+  top: -15px;
+  left: 90px;
+  font-size: 40px;
+}
+
+.a_l {
+  color: green;
+  top: -15px;
+  left: 115px;
+  font-size: 40px;
+}
+
+.a_e {
+  color: red;
+  top: -15px;
+  left: 125px;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 480px) {
+  .links {
+    position: absolute;
+    text-align: right;
+    width: 100vw;
+    height: 2vh;
+    top: -3px;
+    font-weight: lighter;
+    font-size: 15px;
+  }
+  .links h4 {
+    margin: 20px;
+    position: relative;
+    font-weight: lighter;
+  }
+  .links h4 a {
+    color: #0066ff;
+    text-decoration: none;
+  }
+  .links h4 #image, .links h4 #google {
+    left: 100px;
+  }
+  .links h4 #advanced {
+    left: 20px;
+    top: -5px;
+  }
+
+  .search {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    top: 45vh;
+    height: 5vh;
+  }
+  .search .bar {
+    border-radius: 25px;
+    border: 1px solid #d1d4d6;
+    width: 500px;
+    height: 25px;
+    padding: 8px;
+    outline: none;
+  }
+  .search .a_bar {
+    position: relative;
+    width: 40vw;
+    top: -135px;
+    left: 100px;
+    padding: 5px;
+    margin: 9px;
+    border: 1px solid #d1d4d6;
+  }
+
+  #a_google {
+    width: 100vw;
+    height: 7vh;
+    left: 5px;
+    top: -5px;
+    background-color: #ebebeb;
+    padding: 5px;
+  }
+
+  #a_title {
+    margin: 30px;
+    color: red;
+    font-weight: lighter;
+  }
+
+  #a_header {
+    position: absolute;
+    margin: 30px;
+    top: 175px;
+    font-weight: lighter;
+  }
+
+  .a_section {
+    position: relative;
+    margin: 30px;
+    top: 100px;
+    font-weight: lighter;
+  }
+
+  #a_search_section {
+    position: relative;
+    width: 40vw;
+    left: 140px;
+  }
+
+  #a_tutorial {
+    position: absolute;
+    left: 950px;
+    top: 175px;
+    color: lightslategrey;
+    font-weight: lighter;
+  }
+
+  .a_example {
+    position: relative;
+    left: 920px;
+    top: -95px;
+    margin: 30px;
+    color: lightslategrey;
+    font-weight: lighter;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

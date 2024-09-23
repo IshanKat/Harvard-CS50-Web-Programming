@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block body %}
+    {% if exists %}
+        <h1 style="text-align: center;">{{ title }} entry already exists</h1>
+    {% else %}
+        <h1 style="text-align: center;">{{ title }} entry does not exist</h1>
+    {% endif %}
+{% endblock %}
